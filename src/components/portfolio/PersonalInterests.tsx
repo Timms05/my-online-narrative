@@ -18,30 +18,35 @@ export const PersonalInterests = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4 text-slate-800">Hobbies & Activities</h3>
               <div className="space-y-4">
-                {/* TODO: Replace with your actual hobbies and interests */}
                 <div className="border-l-4 border-purple-500 pl-4">
-                  <h4 className="font-semibold text-slate-800">Programming & Technology</h4>
+                  <h4 className="font-semibold text-slate-800">Gaming</h4>
                   <p className="text-slate-600">
-                    I love exploring new programming languages, frameworks, and staying 
-                    updated with the latest technology trends. I enjoy building side projects 
-                    and contributing to open-source communities.
+                    I enjoy playing various games which help me relax and also improve my 
+                    problem-solving skills and strategic thinking.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-pink-500 pl-4">
-                  <h4 className="font-semibold text-slate-800">[Your Interest 2]</h4>
+                  <h4 className="font-semibold text-slate-800">Chess</h4>
                   <p className="text-slate-600">
-                    {/* TODO: Describe another interest/hobby */}
-                    Add description of your second interest here. For example: 
-                    photography, sports, music, reading, etc.
+                    Chess is one of my favorite strategic games. It helps me develop logical 
+                    thinking and planning skills that are valuable in programming as well.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-indigo-500 pl-4">
-                  <h4 className="font-semibold text-slate-800">[Your Interest 3]</h4>
+                  <h4 className="font-semibold text-slate-800">Reading</h4>
                   <p className="text-slate-600">
-                    {/* TODO: Describe another interest/hobby */}
-                    Add description of your third interest here.
+                    I love reading books and articles, especially those related to technology, 
+                    programming, and personal development. Reading keeps me informed and inspired.
+                  </p>
+                </div>
+
+                <div className="border-l-4 border-blue-500 pl-4">
+                  <h4 className="font-semibold text-slate-800">Sleeping</h4>
+                  <p className="text-slate-600">
+                    I value good rest and sleep as it's essential for maintaining focus and 
+                    productivity, especially when learning and working on coding projects.
                   </p>
                 </div>
               </div>
@@ -53,45 +58,41 @@ export const PersonalInterests = () => {
                 <div>
                   <h4 className="font-semibold text-slate-800 mb-2">Currently Learning</h4>
                   <div className="flex flex-wrap gap-2">
-                    {/* TODO: Replace with what you're currently learning */}
-                    <Badge variant="secondary">Advanced Laravel</Badge>
-                    <Badge variant="secondary">Vue.js</Badge>
-                    <Badge variant="secondary">Docker</Badge>
-                    <Badge variant="secondary">AWS</Badge>
+                    <Badge variant="secondary">Laravel</Badge>
+                    <Badge variant="secondary">PHP</Badge>
+                    <Badge variant="secondary">Web Development</Badge>
+                    <Badge variant="secondary">MySQL</Badge>
                   </div>
                 </div>
                 
                 <div>
                   <h4 className="font-semibold text-slate-800 mb-2">Want to Learn</h4>
                   <div className="flex flex-wrap gap-2">
-                    {/* TODO: Replace with technologies/skills you want to learn */}
+                    <Badge variant="outline">Advanced Laravel</Badge>
+                    <Badge variant="outline">Vue.js</Badge>
                     <Badge variant="outline">React</Badge>
                     <Badge variant="outline">Node.js</Badge>
-                    <Badge variant="outline">Machine Learning</Badge>
-                    <Badge variant="outline">DevOps</Badge>
                   </div>
                 </div>
               </div>
               
               <h3 className="text-xl font-semibold mb-4 text-slate-800">Personal Goals</h3>
               <ul className="space-y-2 text-slate-600">
-                {/* TODO: Replace with your personal goals */}
                 <li className="flex items-start gap-2">
                   <span className="text-purple-600 mt-1">•</span>
-                  Become a senior Laravel developer within 2 years
+                  Master Laravel framework and become proficient in web development
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-purple-600 mt-1">•</span>
-                  Contribute to open-source Laravel packages
+                  Build meaningful projects that showcase my skills
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-purple-600 mt-1">•</span>
-                  Build a successful SaaS application
+                  Find opportunities to apply my programming knowledge professionally
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-purple-600 mt-1">•</span>
-                  {/* Add your personal goal here */}
-                  [Add your personal goal here]
+                  Continue learning and growing as a developer
                 </li>
               </ul>
             </div>
